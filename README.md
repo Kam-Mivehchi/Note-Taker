@@ -12,10 +12,10 @@
  - Deployed on heroku
 
 ## Links
-### deployment
+### Deployment
     - heroku:https://notetaker-km.herokuapp.com/
     - github pages:
-### repository
+### Repository
     -github:
 
 ## Screenshot
