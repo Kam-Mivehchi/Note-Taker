@@ -1,14 +1,15 @@
 var path = require('path');
-var fs = require('fs');
-const { dirname } = require('path');
+const router = require('express').Router();
 
-module.exports = function(app){
-    app.get('/notes', function(req,res){
+
+//links the front end html to the endpoing /notes
+    router.get('/notes', function(req,res){
         res.sendFile(path.join(__dirname, '../public/notes.html'));
 
     });
-
-    app.get('*', function(req,res){
+// will serve the index.html landing page upon launch, root route
+    router.get('*', function(req,res){
         res.sendFile(path.join(__dirname, '../public/index.html'));
     });
-};
+
+    module.exports= router;
