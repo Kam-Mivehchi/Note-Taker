@@ -13,12 +13,14 @@
 
 ## Links
 ### deployment
-    - heroku:
+    - heroku:https://notetaker-km.herokuapp.com/
     - github pages:
 ### repository
     -github:
 
 ## Screenshot
+![image](https://user-images.githubusercontent.com/90432404/148446165-53a29a98-1cb8-4caa-8413-c7d1306acce5.png)
+
 
 # HEROKU
 https://warm-savannah-33143.herokuapp.com/
