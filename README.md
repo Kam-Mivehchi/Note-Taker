@@ -1,5 +1,6 @@
 # Note-Taker
 
+<<<<<<< HEAD
 ## Description
  - application establishes express backend to serve front end html
  - upon launch the user is presented with a landing/home page.
@@ -18,3 +19,7 @@
     -github:
 
 ## Screenshot
+=======
+# HEROKU
+https://warm-savannah-33143.herokuapp.com/
+>>>>>>> 716111a3951ad5f345cecdf3d0ec005eb15908b2
