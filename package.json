@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/Kam-Mivehchi/Note-Taker/issues"
   },
-  "homepage": "https://github.com/Kam-Mivehchi/Note-Taker#readme"
+  "homepage": "https://github.com/Kam-Mivehchi/Note-Taker#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "util": "^0.12.4",
+    "uuid": "^9.0.0"
+  }
 }
