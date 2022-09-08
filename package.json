@@ -2,14 +2,19 @@
   "name": "note-taker",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kam-Mivehchi/Note-Taker.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.2",
-    "uuid": "^8.3.2"
-  }
+  "bugs": {
+    "url": "https://github.com/Kam-Mivehchi/Note-Taker/issues"
+  },
+  "homepage": "https://github.com/Kam-Mivehchi/Note-Taker#readme"
 }
