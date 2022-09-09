@@ -22,10 +22,10 @@ router.post('/notes', async function (req, res) {
 
 router.delete('/notes/:id', async (req, res) => {
    try {
-      const remove = await storage.remove(req.params.id);
-      return remove
+      await storage.remove(req.params.id);
+      return res.json({ ok: true })
    } catch (e) {
-      res.status(500).json(e)
+      return res.status(500).json(e)
    }
 
 })

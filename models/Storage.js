@@ -45,7 +45,7 @@ class Storage {
       try {
          const data = await this.getAll()
          const filtered = data.filter(note => note.id !== id);
-         await this.write(filtered)
+         return await this.write(filtered)
       } catch (e) {
          console.log(e)
 
