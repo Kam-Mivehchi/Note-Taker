@@ -1,5 +1,7 @@
 # Note-Taker
 
+## Updates
+Application was refactored on September 8, 2022. Application backend was rebuilt from the ground up. This version utilizes async/await pattern to handle all ansychronous requests and functions. Additionally, the codebase has been consolodated and standardized throught the use of a Notes and Storage object Class. Overall, these changes improved code readability and memory usage.
 
 ## Description
  - application establishes express backend to serve front end html
